@@ -1,3 +1,8 @@
+:root {
+  --color_accent: #7AACC3;
+  --colour_background: #EFEFEF;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -23,7 +28,7 @@ footer, header, nav, section, main {
 
 body {
   line-height: 1;
-  background-color: #EFEFEF;
+  background-color: var(--color-background);
 }
 
 ol, ul {
@@ -62,7 +67,7 @@ input {
 }
 
 .main-header {
-  background-color: #7AC3B0;
+  background-color: var(--color_accent);
   width: 100%;
 }
 .main-header__container {
@@ -136,7 +141,7 @@ main {
   font-weight: bold;
   margin-bottom: 10px;
   display: inline-block;
-  border-bottom: 3px solid #7AC3B0;
+  border-bottom: 3px solid var(--color_accent);
   padding-bottom: 5px;
   min-width: 150px;
   margin-bottom: 25px;
@@ -165,7 +170,7 @@ main {
   }
 }
 .pets__card {
-  border: 3px solid #EFEFEF;
+  border: 3px solid var(--color-background);
   padding: 20px;
 }
 .pets__card__title {
@@ -178,7 +183,7 @@ main {
   text-align: center;
   font-size: 14px;
   padding-bottom: 12px;
-  border-bottom: 1px solid #EFEFEF;
+  border-bottom: 1px solid var(--color-background);
   margin-bottom: 12px;
 }
 .pets__card__button {
@@ -187,7 +192,7 @@ main {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  background-color: #7AC3B0;
+  background-color: var(--color_accent);
   padding: 10px 0;
   border-radius: 5px;
   font-size: 14px;
@@ -200,7 +205,7 @@ main {
 }
 
 .main-footer {
-  background-color: #7AC3B0;
+  background-color: var(--color_accent);
   width: 100%;
   padding: 20px 0;
 }
